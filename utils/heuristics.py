@@ -2,7 +2,8 @@ from urllib.parse import urlparse
 import math
 
 SUSPICIOUS_TLDS = {
-    "tk", "ml", "ga", "cf", "gq", "pw", "top", "xyz"
+    "tk", "ml", "ga", "cf", "gq", "pw", "top", "xyz", "top", "pw", "cc", "info", "online", "site", 
+    "website", "space", "tech", "click", "link", "live", "org", "click", "ch", "icu"
 }
 
 BRAND_KEYWORDS = {
